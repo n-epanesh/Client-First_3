@@ -1,0 +1,168 @@
+.contact {
+  margin-top: 90px;
+}
+
+.contact_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #232536;
+}
+
+.contact_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  text-align: center;
+
+  color: #000;
+}
+
+.contact_descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  padding-left: 41px;
+  padding-bottom: 64px;
+
+  color: #6d6e76;
+}
+
+.contact_container {
+  width: 768px;
+  height: 240px;
+  display: flex;
+  background: #592ea9;
+  padding-top: 48px;
+  padding-right: 64px;
+  padding-bottom: 48px;
+
+  margin-left: 211px;
+  margin-bottom: 32px;
+}
+
+.contact_col_descr_1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 16px;
+
+  color: #ceb2ff;
+}
+
+.contact_border {
+  border: 1px solid #ceb2ff;
+  margin-bottom: 20px;
+}
+
+.contact_title_2 {
+  font-family: "Sen", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  padding-bottom: 5px;
+
+  color: #fff;
+}
+
+.contact_descr_2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #ceb2ff;
+}
+
+.contact_col {
+  margin-left: 116px;
+}
+
+#inline {
+  margin: 0 auto;
+  background: #fff;
+  padding-left: 211px;
+}
+
+.txt_mane {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #9c9c9c;
+  width: 768px;
+  height: 78px;
+
+  border: 1px solid #9c9c9c;
+  padding: 24px 24px;
+
+  margin-bottom: 20px;
+}
+
+.txt_last {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #9c9c9c;
+  width: 768px;
+  height: 78px;
+
+  border: 1px solid #9c9c9c;
+  padding: 24px 24px;
+
+  margin-bottom: 20px;
+}
+
+.txt_email {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #9c9c9c;
+  width: 768px;
+  height: 78px;
+
+  border: 1px solid #9c9c9c;
+  padding: 24px 24px;
+
+  margin-bottom: 20px;
+}
+
+.txtarea {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #9c9c9c;
+  width: 768px;
+  height: 78px;
+
+  border: 1px solid #9c9c9c;
+  padding: 24px 24px;
+
+  margin-bottom: 20px;
+}
+
+#send {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #232536;
+  cursor: pointer;
+  padding: 16px 14px;
+  font-size: 16px;
+  background: #ffd050;
+  width: 768px;
+  height: 78px;
+  border: 0;
+}
+#send:hover {
+  background: #232536;
+  color: #ffd050;
+  border: 0;
+}

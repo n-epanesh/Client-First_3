@@ -1,0 +1,168 @@
+.step {
+  margin-top: 70px;
+}
+
+.step_text {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: -1px;
+
+  color: #592ea9;
+}
+
+.step_descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #6d6e76;
+}
+
+.step_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  padding-bottom: 34px;
+
+  max-width: 768px;
+  color: #232536;
+}
+
+.step_col_text {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  padding-left: 10px;
+
+  color: #232536;
+}
+
+.step_col {
+  display: flex;
+}
+
+.step_coment {
+  padding-bottom: 24px;
+  display: flex;
+}
+
+.step_img {
+  width: 48px;
+  height: 48px;
+}
+
+.step_coment_text {
+  padding-left: 20px;
+}
+
+.lorem {
+  margin-top: 64px;
+  padding-left: 460px;
+}
+
+.lorem_col {
+  padding-bottom: 28px;
+}
+
+.lorem_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+
+  max-width: 843px;
+  color: #232536;
+}
+
+.lorem_descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 843px;
+  padding-bottom: 24px;
+
+  color: #6d6e76;
+}
+
+.lorem_li {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -2px;
+
+  max-width: 843px;
+  color: #161722;
+}
+
+.next_container {
+  display: flex;
+}
+
+.next_col {
+  padding-left: 16px;
+  padding-right: 10px;
+}
+
+.next_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  padding-bottom: 34px;
+
+  max-width: 768px;
+  color: #232536;
+}
+
+.next_col_img {
+  width: 360px;
+  height: 270px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-bottom: 22px;
+}
+
+.next_col_descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  padding-bottom: 16px;
+  color: #4c4c4c;
+}
+
+.next_col_descr span {
+  color: #592ea9;
+  font-weight: 500;
+}
+
+.next_col_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  padding-bottom: 16px;
+
+  max-width: 405px;
+  color: #232536;
+}
+
+.next_col_descr_2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  max-width: 405px;
+  color: #6d6e76;
+}

@@ -1,0 +1,101 @@
+.coment_people {
+  background: #f4f0f8;
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+.coment_people_col {
+  display: flex;
+  padding-left: 100px;
+}
+
+.coment_people_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  padding-bottom: 34px;
+
+  max-width: 669px;
+  color: #232536;
+}
+
+.coment_people_descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 645px;
+  padding-bottom: 24px;
+
+  color: #6d6e76;
+}
+
+.coment_people_text {
+  padding-left: 35px;
+}
+
+.coment_people_img {
+  padding-right: 14px;
+}
+
+.coment_people_network {
+  margin-top: 270px;
+  margin-left: -664px;
+}
+
+.coment_people_border {
+  width: 800px;
+  border: 10px solid #ffd050;
+  position: relative;
+  top: 90px;
+}
+
+.my_posts {
+  margin-top: 100px;
+}
+
+.my_posts_col {
+  display: flex;
+}
+
+.my_posts_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+  color: #592ea9;
+}
+
+.my_posts_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  max-width: 560px;
+  padding-bottom: 16px;
+  color: #232536;
+}
+
+.my_posts_descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 560px;
+  color: #6d6e76;
+}
+
+.my_posts_col_text {
+  padding-top: 40px;
+  padding-left: 32px;
+}
+
+.my_posts_col {
+  padding-top: 32px;
+}

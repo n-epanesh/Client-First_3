@@ -1,0 +1,65 @@
+.privacy {
+  padding-top: 90px;
+  background: #f4f0f8;
+  padding-bottom: 80px;
+}
+
+.privacy_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  padding-bottom: 5px;
+  text-align: center;
+
+  color: #232536;
+}
+
+.privacy_descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #6d6e76;
+}
+
+.inpus {
+  margin-top: 90px;
+}
+
+.inpus_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  padding-bottom: 32px;
+  padding-left: 217px;
+
+  color: #232536;
+}
+
+.inpus_title_2 {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  padding-bottom: 32px;
+  padding-left: 208px;
+
+  color: #232536;
+}
+
+.inpus_descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  padding-left: 216px;
+  padding-right: 170px;
+  color: #6d6e76;
+}

@@ -1,0 +1,167 @@
+.about {
+  margin-top: 80px;
+}
+
+.about_container {
+  display: flex;
+}
+
+.about_col_2 {
+  background: #fff;
+  padding-top: 64px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-bottom: 64px;
+  margin-left: 67px;
+  z-index: 2;
+}
+
+.about_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 16px;
+
+  color: #232536;
+}
+
+.about_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  max-width: 496px;
+  padding-bottom: 16px;
+
+  color: #232536;
+}
+
+.about_col {
+  padding-top: 100px;
+  padding-left: 40px;
+}
+
+.about_descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 477px;
+
+  color: #6d6e76;
+}
+
+.about_col_img {
+  margin-top: -60px;
+  width: 1170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about_container_2 {
+  display: flex;
+  background: #f4f0f8;
+  padding-top: 80px;
+  padding-left: 90px;
+  padding-right: 50px;
+  padding-bottom: 70px;
+}
+
+.about_col_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 16px;
+  color: #232536;
+}
+
+.about_col_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -1px;
+
+  max-width: 475px;
+  padding-bottom: 16px;
+  color: #232536;
+}
+
+.about_col_descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 516px;
+  color: #6d6e76;
+}
+
+.about_col_3 {
+  padding-right: 40px;
+}
+
+.team {
+  margin-top: 128px;
+}
+
+.team_col {
+  display: flex;
+}
+
+.team_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -1px;
+
+  max-width: 519px;
+  padding-bottom: 16px;
+  color: #232536;
+}
+
+.team_title_2 {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  max-width: 519px;
+  padding-bottom: 16px;
+  color: #232536;
+}
+
+.team_col_2 {
+  padding-top: 90px;
+  display: flex;
+}
+
+.team_descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  max-width: 519px;
+  color: #6d6e76;
+}
+
+.team_col_text {
+  padding-top: 80px;
+}
+
+.team_col_text_2 {
+  padding-top: 80px;
+  padding-left: 70px;
+}
+
+.list_2 {
+  margin-top: 90px;
+}

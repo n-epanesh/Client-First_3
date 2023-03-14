@@ -1,0 +1,137 @@
+.post {
+  padding-top: 80px;
+  padding-bottom: 90px;
+  background: #f4f0f8;
+}
+
+.post_container {
+  display: flex;
+}
+
+.post_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+  padding-bottom: 24px;
+  color: #232536;
+}
+
+.post_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+
+  padding-bottom: 24px;
+  max-width: 624px;
+  color: #232536;
+}
+
+.post_descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  padding-bottom: 16px;
+  color: #4c4c4c;
+}
+
+.post_descr span {
+  color: #592ea9;
+  font-weight: 500;
+}
+
+.post_descr_2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 599px;
+
+  padding-bottom: 48px;
+  color: #6d6e76;
+}
+
+.post_btn {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 16px 48px;
+
+  background: #ffd050;
+  color: #232536;
+  transition: color 0.2s ease;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+}
+
+.post_btn:hover {
+  transition: color 0.3s;
+  background: #232536;
+  color: #ffd050;
+}
+
+.post_img {
+  padding-left: 80px;
+}
+
+.business {
+  margin-top: 64px;
+}
+
+.business_title {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+
+  padding-bottom: 32px;
+  max-width: 624px;
+  color: #232536;
+}
+
+.business_border {
+  border: 1px solid #d6d6d8;
+  margin-bottom: 64px;
+}
+
+.business_col {
+  display: flex;
+  padding-bottom: 64px;
+}
+
+.business_col_text {
+  padding-top: 55px;
+  padding-left: 32px;
+}
+
+.business_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+
+  color: #592ea9;
+}
+
+.business_descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 624px;
+
+  color: #6d6e76;
+}
