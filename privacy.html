@@ -24,20 +24,33 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="header_wrapper">
-          <div class="header_logo">
-            <a href="index.html">
-              <img src="img/header_logo.svg" />
-            </a>
+        <div class="header_boby">
+          <a href="index.html">
+            <img src="img/header_logo.svg" class="header_logo_img" />
+          </a>
+          <div class="header_burger">
+            <span></span>
           </div>
           <nav class="header_menu">
-            <a href="index.html" class="menu_link">Home</a>
-            <a href="about.html" class="menu_link">Blog</a>
-            <a href="service.html" class="menu_link">About Us</a>
-            <a href="our.html" class="menu_link">Contact us</a>
-            <a href="contact.html">
-              <button class="menu_link menu_link_btn">Subscribe</button>
-            </a>
+            <ul class="header_list">
+              <li>
+                <a href="index.html" class="header_link">Home</a>
+              </li>
+              <li><a href="blog.html" class="header_link">Blog</a></li>
+              <li>
+                <a href="about_us.html" class="header_link">About Us </a>
+              </li>
+              <li>
+                <a href="contact.html" class="header_link">Contact us </a>
+              </li>
+              <li>
+                <a href="#">
+                  <button class="header_link header_link_btn none">
+                    Subscribe
+                  </button>
+                </a>
+              </li>
+            </ul>
           </nav>
         </div>
       </div>
@@ -110,24 +123,26 @@
         </div>
         <nav class="footer_menu">
           <a href="index.html" class="footer_link">Home</a>
-          <a href="about.html" class="footer_link">Blog</a>
-          <a href="service.html" class="footer_link">About us</a>
-          <a href="our.html" class="footer_link">Contact us</a>
-          <a href="our.html" class="footer_link">Privacy Policy</a>
+          <a href="blog.html" class="footer_link">Blog</a>
+          <a href="about_us.html" class="footer_link">About us</a>
+          <a href="contact.html" class="footer_link">Contact us</a>
+          <a href="#" class="footer_link">Privacy Policy</a>
         </nav>
 
-        <div class="footer_border">
+        <div class="footer_border none">
           <h2 class="footer_title">
-            Subscribe to our news letter to get latest updates and news
+            Subscribe to our news letter<br />
+            to get latest updates and news
           </h2>
+          <div class="footer_form_col">
+            <input
+              type="search"
+              class="footer_form"
+              placeholder="Enter Your Email"
+            />
 
-          <input
-            type="search"
-            class="footer_form"
-            placeholder="Enter Your Email"
-          />
-
-          <input type="submit" class="footer_btn" value="Subscribe" />
+            <input type="submit" class="footer_btn" value="Subscribe" />
+          </div>
         </div>
         <p class="footer_text">Finstreet 118 2561 Fintown</p>
         <p class="footer_text">Hello@finsweet.com 020 7993 2905</p>
@@ -145,5 +160,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
