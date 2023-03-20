@@ -31,6 +31,10 @@ p {
   margin: 0 0 5px;
 }
 
+ul {
+  padding: 0;
+}
+
 .container {
   max-width: 1200px;
   width: 100%;
@@ -39,9 +43,37 @@ p {
 }
 
 .header {
-  background: #232536;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
 }
 
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #232536;
+  z-index: 2;
+}
+
+.header_logo_img {
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+}
+
+.header_boby {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
 .header_wrapper {
   height: 80px;
   display: flex;
@@ -49,7 +81,22 @@ p {
   justify-content: space-between;
 }
 
-.menu_link {
+.header_burger {
+  display: none;
+}
+
+.header_list {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.header_list li {
+  list-style: none;
+}
+
+.header_link {
   margin-right: 24px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -61,29 +108,25 @@ p {
   transition: color 0.3s;
 }
 
-.menu_link span {
+.header_link span {
   color: #ffd050;
 }
 
-.menu_link:hover {
+.header_link:hover {
   font-weight: 500;
   color: #ffd050;
   transition: color 0.3s;
 }
 
-.menu_linkk:last-child {
-  margin-right: 0;
-}
-
-.menu_link:hover:after {
+.header_link:hover:after {
   opacity: 1;
 }
 
-.menu_link.activ:after {
+.header_link.activ:after {
   opacity: 1;
 }
 
-.menu_link_btn {
+.header_link_btn {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -105,6 +148,101 @@ p {
   transition: color 0.3s;
   background: #232536;
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  body.fixed-page {
+    overflow: hidden;
+  }
+  .header_boby {
+    height: 50px;
+  }
+
+  .header_logo_img {
+    width: 120px;
+  }
+
+  .header_burger {
+    display: block;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .header_burger span {
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header_burger::before,
+  .header_burger::after {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header_burger::before {
+    left: 0;
+  }
+
+  .header_burger::after {
+    bottom: 0;
+  }
+
+  .header_burger.active::before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+
+  .header_burger.active::after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+
+  .header_burger.active span {
+    transform: scale(0);
+  }
+
+  .header_menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #232536;
+    transition: all 0.3s ease 0s;
+    padding: 70px 10px 20px 10px;
+  }
+  .header_menu.active {
+    top: 0;
+  }
+
+  .header_list {
+    display: block;
+  }
+
+  .header_list li {
+    margin: 0 0 20px 0;
+  }
+
+  .header_link_btn {
+    margin-left: 0;
+  }
+
+  .header_link {
+    font-size: 24px;
+  }
 }
 
 .poster_img {
@@ -508,7 +646,6 @@ p {
   height: 705px;
   background-repeat: no-repeat;
   background-size: cover;
-  background: url("/img/stardet_banner.jpg");
 
   margin-left: 280px;
 }
@@ -580,6 +717,9 @@ p {
   background: #fff;
   padding-top: 20px;
   padding-left: 20px;
+  position: relative;
+  z-index: 2;
+  margin-top: -480px;
 
   margin-left: 480px;
 }
@@ -838,6 +978,7 @@ p {
   line-height: 28px;
   max-width: 405px;
   text-align: center;
+  margin-left: 375px;
 
   color: #6d6e76;
 }
