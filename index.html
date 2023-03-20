@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <link rel="stylesheet" type="text/css" href="main.js" />
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,21 +25,29 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="header_wrapper">
-          <div class="header_logo">
-            <a href="index.html">
-              <img src="img/header_logo.svg" class="header_logo_img" />
-            </a>
+        <div class="header_boby">
+          <a href="index.html">
+            <img src="img/header_logo.svg" class="header_logo_img" />
+          </a>
+          <div class="header_burger">
+            <span></span>
           </div>
-
-          <nav class="header_menu none">
-            <a href="index.html" class="menu_link"><span>Home</span></a>
-            <a href="blog.html" class="menu_link">Blog</a>
-            <a href="about_us.html" class="menu_link">About Us</a>
-            <a href="contact.html" class="menu_link">Contact us</a>
-            <a href="#">
-              <button class="menu_link menu_link_btn">Subscribe</button>
-            </a>
+          <nav class="header_menu">
+            <ul class="header_list">
+              <li>
+                <a href="index.html" class="header_link"><span>Home</span></a>
+              </li>
+              <li><a href="blog.html" class="header_link">Blog</a></li>
+              <li><a href="about_us.html" class="header_link">About Us</a></li>
+              <li><a href="contact.html" class="header_link">Contact us</a></li>
+              <li>
+                <a href="#">
+                  <button class="header_link header_link_btn none">
+                    Subscribe
+                  </button>
+                </a>
+              </li>
+            </ul>
           </nav>
         </div>
       </div>
@@ -54,7 +63,7 @@
           By <a href="business.html" class="poster_descr_a">James West</a> | May
           23, 2022
         </p>
-        <p class="poster_descr_2">
+        <p class="poster_descr_2 none">
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident.
@@ -213,7 +222,8 @@
     </section>
 
     <section class="stardet">
-      <div class="container stardet_img">
+      <div class="container">
+        <img src="img/stardet_banner.jpg" class="stardet_img" />
         <div class="stardet_col">
           <p class="stardet_text">Why we started</p>
           <h3 class="stardet_title">
@@ -239,7 +249,7 @@
           <div class="list_col">
             <img src="img/list_img_1.png" class="list_img" />
             <h5 class="list_col_title">Floyd Miles</h5>
-            <p class="list_col_descr">Content Writer @Company</p>
+            <p class="list_col_descr none">Content Writer @Company</p>
             <div class="list_container_network">
               <a href="#"><img src="img/list_network_fb.svg" /></a>
               <a href="#"><img src="img/list_network_tw.svg" /></a>
@@ -250,7 +260,7 @@
           <div class="list_col">
             <img src="img/list_img_2.png" class="list_img" />
             <h5 class="list_col_title">Dianne Russell</h5>
-            <p class="list_col_descr">Content Writer @Company</p>
+            <p class="list_col_descr none">Content Writer @Company</p>
             <div class="list_container_network">
               <a href="#"><img src="img/list_network_fb.svg" /></a>
               <a href="#"><img src="img/list_network_tw.svg" /></a>
@@ -392,5 +402,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
